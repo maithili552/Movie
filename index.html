@@ -71,7 +71,7 @@
     <script>
         async function searchMovie() {
             const movieName = document.getElementById("movieInput").value;
-            const apiKey = "YOUR_OMDB_API_KEY"; // Replace with your actual OMDB API Key
+            const apiKey = "http://www.omdbapi.com/?i=tt3896198&apikey=d3d328ba"; // Replace with your actual OMDB API Key
             const url = `https://www.omdbapi.com/?t=${movieName}&apikey=${apiKey}`;
 
             document.getElementById("errorMessage").textContent = "";
